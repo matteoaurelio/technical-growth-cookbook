@@ -19,6 +19,34 @@ A small script can help answer a real business question:
 
 This cookbook collects practical patterns across technical SEO, analytics, and data work.
 
+## What this repository contains
+
+This repository is the GitHub version of the Technical Growth Cookbook.
+
+The website version is more polished and easier to browse. The GitHub version is more technical, transparent, and easier to reuse.
+
+The structure is:
+
+```txt
+technical-growth-cookbook/
+  README.md
+  chapters/
+    01-campaign-tracking/
+      001-split-campaign-traffic-utm.md
+    02-analytics-qa/
+    03-seo-growth/
+    04-crawling-redirects/
+    05-browser-diagnostics/
+    06-performance/
+    07-search-console-serp/
+    08-internal-linking/
+    09-data-workflows/
+    10-reporting/
+  examples/
+    cloudflare-workers/
+      split-campaign-traffic-utm.js
+```
+
 ## Chapters
 
 1. [Campaign Tracking & UTM Systems](chapters/01-campaign-tracking/)
@@ -32,23 +60,70 @@ This cookbook collects practical patterns across technical SEO, analytics, and d
 9. [Large-Scale Data Workflows with Python, Polars & Cloud](chapters/09-data-workflows/)
 10. [Reporting, Visualization & Decision Systems](chapters/10-reporting/)
 
+## Available recipes
+
+### Campaign Tracking & UTM Systems
+
+- [Recipe 001 — Split one campaign URL between two landing pages and track variants with UTMs](chapters/01-campaign-tracking/001-split-campaign-traffic-utm.md)
+
+## Code examples
+
+Some recipes include standalone code files that can be reused or adapted.
+
+- [Cloudflare Worker example — Split campaign traffic with UTMs](examples/cloudflare-workers/split-campaign-traffic-utm.js)
+
 ## Recipe format
 
 Each recipe follows this structure:
 
 1. Business problem
 2. When to use it
-3. Code recipe
-4. How it works
-5. What to measure
-6. Mistakes to avoid
-7. Related website article or service
+3. When not to use it
+4. Code recipe
+5. How it works
+6. What to measure
+7. Mistakes to avoid
+8. Related website article or service
 
-## Website
+## Website version
 
 The web version of this cookbook lives here:
 
 https://matteoarellano.com/resources/
+
+The first published recipe is here:
+
+https://matteoarellano.com/resources/campaign-tracking/split-campaign-traffic-utm/
+
+## Related article
+
+The first recipe is connected to this Analytics & Measurement article:
+
+https://matteoarellano.com/blog/analytics-measurement/utm-ab-test-traffic-split-food-delivery/
+
+## How this will grow
+
+This cookbook will grow recipe by recipe.
+
+The plan is to publish practical patterns across:
+
+- UTM systems and campaign tracking
+- Analytics QA and conversion measurement
+- Technical SEO audit automation
+- Crawling, broken links, and redirects
+- Browser rendering and JavaScript diagnostics
+- Core Web Vitals and performance diagnostics
+- Search Console, SERP, and search demand analysis
+- Internal linking and site architecture
+- Python, Polars, cloud, and large-scale data workflows
+- Reporting, visualization, and decision systems
+
+Each recipe can become:
+
+- a website resource
+- a GitHub recipe
+- a LinkedIn post
+- a future cookbook chapter
 
 ## Author
 
