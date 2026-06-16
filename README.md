@@ -66,6 +66,10 @@ technical-growth-cookbook/
 
 - [Recipe 001 — Split one campaign URL between two landing pages and track variants with UTMs](chapters/01-campaign-tracking/001-split-campaign-traffic-utm.md)
 
+### Browser Diagnostics
+
+- [Recipe 002 - Understand your canonical URL and whether they align with your business strategy](chapters/05-browser-diagnostics/002-canonical-analyzer-part-1.md)
+
 ## Code examples
 
 Some recipes include standalone code files that can be reused or adapted.
